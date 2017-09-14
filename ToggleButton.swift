@@ -1,6 +1,5 @@
 //
 //  ToggleButton.swift
-//  Voluble
 //
 //  Created by Colin on 9/12/17.
 //  Copyright © 2017 Colin Pratt. All rights reserved.
