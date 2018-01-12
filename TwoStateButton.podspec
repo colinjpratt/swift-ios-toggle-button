@@ -14,18 +14,18 @@ Pod::Spec.new do |s|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
-
+  s.platform = :ios
+  s.ios.deployment_target = '10.0'
   s.name         = "TwoStateButton"
   s.version      = "0.0.1"
-  s.summary      = "A UIButton with the ability to toggle between an on and off state represented in image and tint."
+  s.summary      = "A UIButton with a toggleable state represented in image and tint."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "A UIButton with the ability to toggle between an on and off state represented in image and tint. "
 
   s.homepage     = "https://github.com/colinjpratt/swift-ios-toggle-button.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "**/*.{h,m,swift}"
+  s.source_files  = "TwoStateButton/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
