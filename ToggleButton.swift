@@ -53,6 +53,10 @@ class ToggleButton: UIButton {
         self.addTarget(self, action: #selector(internalImagetoggle), for: .touchUpInside)
     }
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
     @objc private func internalImagetoggle(sender: ToggleButton) {
         isOn = !isOn
         tintColor = isOn ? isOnTintColor : isOffTintColor
