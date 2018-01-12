@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B413E6F200878BA0006B5B7 /* TwoStateButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B413E65200878BA0006B5B7 /* TwoStateButton.framework */; };
+		3B413E74200878BA0006B5B7 /* TwoStateButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B413E73200878BA0006B5B7 /* TwoStateButtonTests.swift */; };
+		3B413E76200878BA0006B5B7 /* TwoStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B413E68200878BA0006B5B7 /* TwoStateButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B413E8020087D7F0006B5B7 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B413E7F20087D7F0006B5B7 /* ToggleButton.swift */; };
+		3B413E8320087E0B0006B5B7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B413E8120087E0B0006B5B7 /* README.md */; };
+		3B413E8420087E0B0006B5B7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3B413E8220087E0B0006B5B7 /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B413E70200878BA0006B5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B413E5C200878BA0006B5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B413E64200878BA0006B5B7;
+			remoteInfo = TwoStateButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B413E65200878BA0006B5B7 /* TwoStateButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TwoStateButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B413E68200878BA0006B5B7 /* TwoStateButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoStateButton.h; sourceTree = "<group>"; };
+		3B413E69200878BA0006B5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B413E6E200878BA0006B5B7 /* TwoStateButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoStateButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B413E73200878BA0006B5B7 /* TwoStateButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStateButtonTests.swift; sourceTree = "<group>"; };
+		3B413E75200878BA0006B5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B413E7F20087D7F0006B5B7 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		3B413E8120087E0B0006B5B7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3B413E8220087E0B0006B5B7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B413E61200878BA0006B5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B413E6B200878BA0006B5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B413E6F200878BA0006B5B7 /* TwoStateButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B413E5B200878BA0006B5B7 = {
+			isa = PBXGroup;
+			children = (
+				3B413E8220087E0B0006B5B7 /* LICENSE */,
+				3B413E8120087E0B0006B5B7 /* README.md */,
+				3B413E67200878BA0006B5B7 /* TwoStateButton */,
+				3B413E72200878BA0006B5B7 /* TwoStateButtonTests */,
+				3B413E66200878BA0006B5B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B413E66200878BA0006B5B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B413E65200878BA0006B5B7 /* TwoStateButton.framework */,
+				3B413E6E200878BA0006B5B7 /* TwoStateButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B413E67200878BA0006B5B7 /* TwoStateButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B413E7F20087D7F0006B5B7 /* ToggleButton.swift */,
+				3B413E68200878BA0006B5B7 /* TwoStateButton.h */,
+				3B413E69200878BA0006B5B7 /* Info.plist */,
+			);
+			path = TwoStateButton;
+			sourceTree = "<group>";
+		};
+		3B413E72200878BA0006B5B7 /* TwoStateButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B413E73200878BA0006B5B7 /* TwoStateButtonTests.swift */,
+				3B413E75200878BA0006B5B7 /* Info.plist */,
+			);
+			path = TwoStateButtonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B413E62200878BA0006B5B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B413E76200878BA0006B5B7 /* TwoStateButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B413E64200878BA0006B5B7 /* TwoStateButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B413E79200878BA0006B5B7 /* Build configuration list for PBXNativeTarget "TwoStateButton" */;
+			buildPhases = (
+				3B413E60200878BA0006B5B7 /* Sources */,
+				3B413E61200878BA0006B5B7 /* Frameworks */,
+				3B413E62200878BA0006B5B7 /* Headers */,
+				3B413E63200878BA0006B5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoStateButton;
+			productName = TwoStateButton;
+			productReference = 3B413E65200878BA0006B5B7 /* TwoStateButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B413E6D200878BA0006B5B7 /* TwoStateButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B413E7C200878BA0006B5B7 /* Build configuration list for PBXNativeTarget "TwoStateButtonTests" */;
+			buildPhases = (
+				3B413E6A200878BA0006B5B7 /* Sources */,
+				3B413E6B200878BA0006B5B7 /* Frameworks */,
+				3B413E6C200878BA0006B5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B413E71200878BA0006B5B7 /* PBXTargetDependency */,
+			);
+			name = TwoStateButtonTests;
+			productName = TwoStateButtonTests;
+			productReference = 3B413E6E200878BA0006B5B7 /* TwoStateButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B413E5C200878BA0006B5B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = colinpratt;
+				TargetAttributes = {
+					3B413E64200878BA0006B5B7 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					3B413E6D200878BA0006B5B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B413E5F200878BA0006B5B7 /* Build configuration list for PBXProject "TwoStateButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B413E5B200878BA0006B5B7;
+			productRefGroup = 3B413E66200878BA0006B5B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B413E64200878BA0006B5B7 /* TwoStateButton */,
+				3B413E6D200878BA0006B5B7 /* TwoStateButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B413E63200878BA0006B5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B413E8420087E0B0006B5B7 /* LICENSE in Resources */,
+				3B413E8320087E0B0006B5B7 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B413E6C200878BA0006B5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B413E60200878BA0006B5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B413E8020087D7F0006B5B7 /* ToggleButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B413E6A200878BA0006B5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B413E74200878BA0006B5B7 /* TwoStateButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B413E71200878BA0006B5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B413E64200878BA0006B5B7 /* TwoStateButton */;
+			targetProxy = 3B413E70200878BA0006B5B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B413E77200878BA0006B5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B413E78200878BA0006B5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B413E7A200878BA0006B5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TwoStateButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colinpratt.TwoStateButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B413E7B200878BA0006B5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TwoStateButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colinpratt.TwoStateButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B413E7D200878BA0006B5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoStateButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colinpratt.TwoStateButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B413E7E200878BA0006B5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoStateButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colinpratt.TwoStateButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B413E5F200878BA0006B5B7 /* Build configuration list for PBXProject "TwoStateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B413E77200878BA0006B5B7 /* Debug */,
+				3B413E78200878BA0006B5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B413E79200878BA0006B5B7 /* Build configuration list for PBXNativeTarget "TwoStateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B413E7A200878BA0006B5B7 /* Debug */,
+				3B413E7B200878BA0006B5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B413E7C200878BA0006B5B7 /* Build configuration list for PBXNativeTarget "TwoStateButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B413E7D200878BA0006B5B7 /* Debug */,
+				3B413E7E200878BA0006B5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B413E5C200878BA0006B5B7 /* Project object */;
+}
